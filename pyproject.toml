@@ -1,0 +1,14 @@
+[project]
+name = "link-cut-tree"
+version = "0.1.0"
+description = "Represents a forest of rooted trees with dynamic link, cut, and path queries."
+requires-python = ">=3.10"
+dependencies = []
+readme = "README.md"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
